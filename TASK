@@ -1,0 +1,16 @@
+Estonian Presidential Election состоит из	списка	4	кандидатов в	президенты;
+• Внизу	общего	списка отображается	линк	на	https://en.wikipedia.org выбранного	
+кандидата;
+• При	выборе кандидата, внизу	общего	списка, подгружается	краткая	информация	
+о	кандидате,	которая	равна	первому предложению	с	Wikipedia;
+• Нажатие	на Vote in Election,	вызывает модальное	окно с	уточнением	о	решении	
+голосования, именем	и	фамилией	кандидата, кнопками	YES и	CANCEL;
+• Нажатие на YES,	открывает страницу “Ballot	Receipt” с полями BALLOT RECIEPT 3-
+WORD MEMO, BALLOT SHA256	HASH и 4-мя кнопками SAVE 3-WORD MEMO AND
+BALLOT HASH,	DISCARD,	DECRYPT,	SIGN;
+• Нажатие	на	SIGN вызывает модальное	окно с	требованием ввода PIN2, который	
+должен быть	уникальным,	для	каждого	выбранного	кандидата;
+• Нажатие	 на	 SIGN BALLOT, переносит	 пользователя на	 страницу	 Ballot has been
+signed с	полем E-mail,	 кнопками SUBMIT BALLOT и	DISCARD BALLOT.
+• При	вводе e-mail и	нажатии	на	SUBMIT BALLOT на	почту	приходит	письмо:
+o От: voting2016app@gmail.com;
